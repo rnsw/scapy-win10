@@ -16,12 +16,12 @@ global name 'log_runtime' is not defined
 修改文件
 C:\Python27\Lib\site-packages\scapy\arch\windows\compatibility.py
 
-将
-from scapy.arch.consts import LOOPBACK_NAME 
-from scapy.config import conf,ConfClass  
-改为
-from scapy.arch.consts import LOOPBACK_NAME 
-from scapy.config import conf,ConfClass 
-from scapy.arch.pcapdnet import PcapTimeoutElapsed      #PcapTimeoutElapsed 
-from scapy import plist                                  #plist 
-from scapy.all import log_runtime, MTU, ETH_P_ALL          #log_runtime, MTU, ETH_P_ALL 
+将   
+from scapy.arch.consts import LOOPBACK_NAME             
+from scapy.config import conf,ConfClass       
+改为   
+from scapy.arch.consts import LOOPBACK_NAME   
+from scapy.config import conf,ConfClass   
+from scapy.arch.pcapdnet import PcapTimeoutElapsed      #PcapTimeoutElapsed    
+from scapy import plist                                 #plist    
+from scapy.all import log_runtime, MTU, ETH_P_ALL       #log_runtime, MTU, ETH_P_ALL   
