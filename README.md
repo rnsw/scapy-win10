@@ -5,4 +5,5 @@ win10 python27  scapy
 3. 解压 WpdPack_4_1_2.zip 将 Include ,Lib  复制到 python 安装目录下的 Include 和 libs 中
 4. 安装 pcap-1.1.win32-py2.7.exe
 5. 安装 dnet-1.12.win32-py2.7.exe
-6. 安装 impacket-0.9.11.win32.msi
+6. 安装 Win10Pcap-v10.2-5002.msi
+7. 安装 impacket-0.9.11.win32.msi
