@@ -10,7 +10,7 @@ Win10Pcap-v10.2-5002.msi
 impacket-0.9.11.win32.msi   
 
 
-#错误
+# 错误
 global name 'log_runtime' is not defined
 global name 'xxx...' is not defined
 
