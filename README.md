@@ -10,8 +10,9 @@ Win10Pcap-v10.2-5002.msi
 impacket-0.9.11.win32.msi   
 
 
-错误1
+#错误
 global name 'log_runtime' is not defined
+global name 'xxx...' is not defined
 
 修改文件
 C:\Python27\Lib\site-packages\scapy\arch\windows\compatibility.py
@@ -24,4 +25,5 @@ from scapy.arch.consts import LOOPBACK_NAME
 from scapy.config import conf,ConfClass   
 from scapy.arch.pcapdnet import PcapTimeoutElapsed      #PcapTimeoutElapsed    
 from scapy import plist                                 #plist    
-from scapy.all import log_runtime, MTU, ETH_P_ALL       #log_runtime, MTU, ETH_P_ALL   
+from scapy.all import log_runtime, MTU, ETH_P_ALL,Gen,WINDOWS,time  		#log_runtime, MTU, ETH_P_ALL
+import itertools
